@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="registeration.Register">
+      <class name="login.TC_04Test">
         <methods>
           <include name="postCondition"/>
-          <include name="logout"/>
+          <include name="login1"/>
           <include name="preCondition"/>
-          <include name="register"/>
-          <include name="loginCredentials"/>
         </methods>
-      </class> <!-- registeration.Register -->
+      </class> <!-- login.TC_04Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

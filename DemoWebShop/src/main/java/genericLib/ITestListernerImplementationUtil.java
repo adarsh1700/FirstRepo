@@ -9,9 +9,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestResult;
 
 public class ITestListernerImplementationUtil {
-	/**
-	 * This method is used to take screenshot when the tetsCase failed
-	 */
+
 	public void onTestFailure(ITestResult Result) 					
 	{		
 		System.out.println("It's Failed");
